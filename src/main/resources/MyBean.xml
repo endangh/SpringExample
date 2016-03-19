@@ -6,12 +6,4 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
-	<context:annotation-config/>
-	
-	<bean id="helloBean" class="com.psbk.spring.HelloWorld">
-		<property name="name" value="PSBK" />
-	</bean>
-
-	<bean id="transactionBo" class="com.psbk.spring.TransactionImpl" />
-
 </beans>
